@@ -16,3 +16,12 @@ int main(){
     return 0;
 }
 // time complexity of this code is O(n) because in the worst case, we will make n recursive calls until we reach the base case. Each call involves a constant amount of work (multiplication and function call overhead), so the overall time complexity is linear with respect to n.
+// recursion tree for factorial(5):
+// factorial(5) 
+// ├── 5 * factorial(4)
+// │   ├── 4 * factorial(3)
+// │   │   ├── 3 * factorial(2)
+// │   │   │   ├── 2 * factorial(1)
+// │   │   │   │   ├── 1 * factorial(0)
+// │   │   │   │   │   ├── 1 (base case)
+// │   │   │   │   ├── 1 (base case)
