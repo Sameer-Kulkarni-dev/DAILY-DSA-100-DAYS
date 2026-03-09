@@ -25,3 +25,8 @@ int main(){
 // │   │   │   │   ├── 1 * factorial(0)
 // │   │   │   │   │   ├── 1 (base case)
 // │   │   │   │   ├── 1 (base case)
+
+// space complexity of this code is O(n) 
+//because each recursive call adds a new frame to the call stack,
+// and in the worst case, we will have n frames on the stack until we reach the base case. Once we reach the base case, 
+//the stack will start unwinding, but at its peak, it will require O(n) space to hold all the frames.
