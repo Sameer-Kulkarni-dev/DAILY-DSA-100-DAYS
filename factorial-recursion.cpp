@@ -15,3 +15,4 @@ int main(){
     cout<<"Factorial of "<<n<<" is "<<factorial(n);
     return 0;
 }
+// time complexity of this code is O(n) because in the worst case, we will make n recursive calls until we reach the base case. Each call involves a constant amount of work (multiplication and function call overhead), so the overall time complexity is linear with respect to n.
